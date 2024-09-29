@@ -63,7 +63,7 @@ Once the model was optimized, it was used to make predictions on the unlabeled t
 - **Loading and Preprocessing Test Images**: Test images were preprocessed using the same steps as the training images (resizing, normalization, tensor conversion).
 - **Generating Predictions**: The trained model was used to generate a probability distribution over the 120 dog breeds for each test image.
 
-**Custom Image Predictions**
+**Custom Image Predictions**:
 I also developed functionality to predict dog breeds from custom images:
 - Upload and preprocess custom image.
 - Predict breed: The model outputs the top predicted breed along with the associated probabilities.
