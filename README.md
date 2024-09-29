@@ -8,10 +8,9 @@ This repository contains the code for an end-to-end multi-class image classifier
 4. [Features](#features)
 5. [Preprocessing](#preprocessing)
 6. [Modeling](#modeling)
-7. [Evaluation and Optimization](#evaluation-and-optimization)
-8. [Prediction](#prediction)
-9. [Results and Kaggle Submission](#results-and-kaggle-submission)
-10. [TensorFlow WorkFlow](#tensorFlow-workflow)
+7. [Prediction](#prediction)
+8. [Results and Kaggle Submission](#results-and-kaggle-submission)
+9. [TensorFlow WorkFlow](#tensorFlow-workflow)
  
 ## Problem Definition
 The challenge is to identify the breed of a dog given its image. This is a supervised learning task in which the input is an image of a dog, and the output is the predicted dog breed. Given that there are 120 possible breeds, this is a multi-class classification problem.
@@ -58,9 +57,6 @@ The model is compiled using:
 **Callbacks:**
 - **TensorBoard**: To track the progress of our model.
 - **EarlyStopping**: Stops training when validation loss does not improve for 5 consecutive epochs to prevent overfitting.
-
-## Evaluation and Optimization
-The primary metric used in the Kaggle competition is Log Loss, measuring how well the predicted probabilities match the true class labels.
 
 ## Prediction
 Once the model was optimized, it was used to make predictions on the unlabeled test set provided by Kaggle. The steps for making predictions include:
