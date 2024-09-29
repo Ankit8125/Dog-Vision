@@ -1,5 +1,5 @@
 # Dog-Vision 🐕
-This repository contains the code for an end-to-end multi-class image classifier built using TensorFlow 2.0 and TensorFlow Hub. The goal of this project is to classify images of dogs into one of 120 breeds. The project is based on Kaggle’s Dog Breed Identification competition. The model achieved a ranking of 152 out of 1281 participants on the leaderboard.
+This repository contains the code for an end-to-end multi-class image classifier built using TensorFlow 2.0 and TensorFlow Hub. The goal of this project is to classify images of dogs into one of 120 breeds. The project is based on [Kaggle’s Dog Breed Identification](https://www.kaggle.com/competitions/dog-breed-identification/overview) competition. The model achieved a ranking of 152 out of 1281 participants on the leaderboard.
 
 ## Table of Contents
 1. [Problem Definition](#problem-definition)
@@ -16,7 +16,7 @@ This repository contains the code for an end-to-end multi-class image classifier
 The challenge is to identify the breed of a dog given its image. This is a supervised learning task in which the input is an image of a dog, and the output is the predicted dog breed. Given that there are 120 possible breeds, this is a multi-class classification problem.
 
 ## Data
-The dataset used for this project comes from Kaggle's Dog Breed Identification competition, and it contains:
+The dataset used for this project comes from [Kaggle's Dog Breed Identification](https://www.kaggle.com/competitions/dog-breed-identification/overview) competition, and it contains:
 - **Training Set**: 10,222 labeled images with their corresponding dog breeds.
 - **Test Set**: 10,357 unlabeled images for which the goal is to predict the breed.
 - **Breed Classes**: 120 unique dog breeds, forming the target classes for the classification task.
